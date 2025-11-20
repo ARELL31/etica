@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Mentor Ético</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Configuración global para usar la fuente Inter */
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Fondo base muy claro */
+            @apply bg-rose-50 text-gray-800;
+        }
+        /* Estilos personalizados para efectos hover */
+        .card-shadow {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card-shadow:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(217, 70, 239, 0.1), 0 4px 6px -2px rgba(217, 70, 239, 0.05); /* Sombra con toque de color */
+        }
+        .text-gradient {
+            /* Degradado de colores pastel rojizos */
+            background-image: linear-gradient(to right, #fb7185, #f472b6); /* rose-400 a pink-400 */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+
+    <!-- CABECERA PRINCIPAL -->
+    <header class="bg-rose-500 text-white pt-16 pb-12 shadow-xl">
+        <div class="container mx-auto px-4 text-center">
+            <div class="inline-block p-4 rounded-full bg-rose-400 mb-4 shadow-lg">
+                <!-- Icono de Búho/Sabiduría -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6m0 0l-10-6L2 16V4l10 6 10-6"/><path d="M12 2v6"/><path d="M6 12l-4 2v2"/><path d="M18 12l4 2v2"/></svg>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-3">Programa Mentor Ético</h1>
+            <p class="text-xl md:text-2xl font-light opacity-90">Un alumno asesor para alumnos de primer ingreso en la Facultad de Ingeniería</p>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container mx-auto px-4 py-12 md:py-16">
+
+        <!-- Equipo 3 -->
+        <section class="mb-16 bg-white p-6 md:p-10 rounded-xl shadow-lg">
+            <h2 class="text-3xl font-bold mb-8 text-center text-rose-800">Conoce al <span class="text-gradient">Equipo 3</span></h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                <!-- Miembros del Equipo -->
+                <div class="team-member p-4 bg-pink-100 text-rose-800 font-semibold rounded-lg text-center border-2 border-pink-300 card-shadow">Bravo V. Stephany</div>
+                <div class="team-member p-4 bg-pink-100 text-rose-800 font-semibold rounded-lg text-center border-2 border-pink-300 card-shadow">Fuentes R. Genaro</div>
+                <div class="team-member p-4 bg-pink-100 text-rose-800 font-semibold rounded-lg text-center border-2 border-pink-300 card-shadow">Franco A. Luis F.</div>
+                <div class="team-member p-4 bg-pink-100 text-rose-800 font-semibold rounded-lg text-center border-2 border-pink-300 card-shadow">Gallardo M. Carlos</div>
+                <div class="team-member p-4 bg-pink-100 text-rose-800 font-semibold rounded-lg text-center border-2 border-pink-300 card-shadow">Guevara G. Rafael</div>
+                <div class="team-member p-4 bg-pink-100 text-rose-800 font-semibold rounded-lg text-center border-2 border-pink-300 card-shadow">Guzmán D. Norma I.</div>
+            </div>
+        </section>
+
+        <!-- Propósito y Justificación -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center text-rose-800 border-b-4 border-pink-400 pb-2 inline-block mx-auto">Nuestro Propósito y Fundamento Ético</h2>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <!-- Justificación (¿Por qué?) -->
+                <div class="bg-white p-8 rounded-xl shadow-xl card-shadow">
+                    <h3 class="text-2xl font-semibold mb-4 text-pink-600 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb-off mr-3"><path d="M19.8 19.8A2 2 0 0 0 21 18"/><path d="M9 18c-3.1 0-5.6-2-6-5a6 6 0 0 1 4.5-5.5"/><path d="M12 2c-.9 0-1.8.2-2.5.6"/><path d="M15 21v-1l1.5-1.5m.5-2.5v-1l-3-3"/><path d="M14.6 9.4L9.4 14.6"/><line x1="2" x2="22" y1="2" y2="22"/></svg>
+                        Nuestra Razón de Ser
+                    </h3>
+                    <ul class="space-y-3 list-none pl-0">
+                        <li class="flex items-start"><span class="text-pink-400 mr-3 mt-1 text-xl">✅</span>Previene conductas deshonestas por desconocimiento o presión.</li>
+                        <li class="flex items-start"><span class="text-pink-400 mr-3 mt-1 text-xl">✅</span>Mantiene un apoyo real y cercano para los nuevos estudiantes.</li>
+                        <li class="flex items-start"><span class="text-pink-400 mr-3 mt-1 text-xl">✅</span>Abarca temas clave como género y orientación ética general.</li>
+                    </ul>
+                </div>
+
+                <!-- Fundamento Ético -->
+                <div class="bg-white p-8 rounded-xl shadow-xl card-shadow">
+                    <h3 class="text-2xl font-semibold mb-4 text-pink-600 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale mr-3"><path d="m16 16 3-3-3-3"/><path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7"/></svg>
+                        Pilires de la Ética
+                    </h3>
+                    <div class="space-y-5">
+                        <p class="border-l-4 border-rose-400 pl-3"><strong>Integridad Académica:</strong> Buscamos formar ingenieros que no solo sean competentes técnicamente, sino también íntegros.</p>
+                        <p class="border-l-4 border-rose-400 pl-3"><strong>Justicia y Equidad:</strong> Nivelar el campo de juego para los estudiantes de nuevo ingreso, ofreciendo las "reglas no escritas" de la universidad.</p>
+                        <p class="border-l-4 border-rose-400 pl-3"><strong>Fraternidad:</strong> Fomentar una comunidad de aprendizaje colaborativa, donde la confianza y la credibilidad se construyen entre pares.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enfoque y Ejecución del Programa -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center text-rose-800 border-b-4 border-pink-400 pb-2 inline-block mx-auto">Estrategia del Programa</h2>
+
+            <!-- Nuestro Enfoque (3 Pasos Clave) -->
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md card-shadow border-t-4 border-pink-400">
+                    <div class="text-4xl text-pink-400 mb-3 font-extrabold">1.</div>
+                    <h3 class="text-xl font-semibold mb-2 text-rose-700">Selección y Guía</h3>
+                    <p class="text-gray-600">Seleccionar mentores voluntarios y proporcionarles una guía clara de actuación y capacitación ética.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md card-shadow border-t-4 border-pink-400">
+                    <div class="text-4xl text-pink-400 mb-3 font-extrabold">2.</div>
+                    <h3 class="text-xl font-semibold mb-2 text-rose-700">Emparejamiento Personalizado</h3>
+                    <p class="text-gray-600">Emparejar a cada mentor con un grupo reducido de alumnos de primer ingreso para maximizar la atención.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md card-shadow border-t-4 border-pink-400">
+                    <div class="text-4xl text-pink-400 mb-3 font-extrabold">3.</div>
+                    <h3 class="text-xl font-semibold mb-2 text-rose-700">Seguimiento Activo</h3>
+                    <p class="text-gray-600">Realizar reuniones breves y dar seguimiento constante a casos específicos y temas recurrentes.</p>
+                </div>
+            </div>
+
+            <!-- Propósitos Prácticos -->
+            <div class="bg-rose-50 p-8 rounded-xl shadow-inner border border-rose-200">
+                <h3 class="text-2xl font-bold mb-5 text-rose-800">Objetivos Operacionales</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="border-l-4 border-pink-600 pl-4">
+                        <h4 class="text-xl font-semibold text-pink-600 mb-1">Impacto Preventivo 🛡️</h4>
+                        <p class="text-gray-700">Actuar antes de que ocurran conductas deshonestas, abordando las causas raíz: el desconocimiento, el miedo y la presión académica.</p>
+                    </div>
+                    <div class="border-l-4 border-pink-600 pl-4">
+                        <h4 class="text-xl font-semibold text-pink-600 mb-1">Apoyo Real y Cercano 🗣️</h4>
+                        <p class="text-gray-700">Ofrecer un espacio seguro donde los alumnos puedan expresar sus dudas y presiones a alguien que "ya pasó por ahí".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action y Logística -->
+        <section class="mb-16">
+            <div class="bg-rose-400 text-white p-10 rounded-xl shadow-2xl text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-3">¡Participa y Fortalece tu Comunidad!</h2>
+                <p class="text-xl opacity-90 mb-6">Conecta con un mentor o postúlate para guiar a la próxima generación de ingenieros.</p>
+                <a href="#" class="inline-block bg-rose-700 hover:bg-rose-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                    Solicita Más Información
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <!-- Logística -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-bold mb-4 text-rose-800 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin mr-2 text-pink-500"><path d="M12 18s-2-2-5-5a7 7 0 0 1 10 0s-3 3-5 5"/><circle cx="12" cy="10" r="2"/></svg>
+                        ¿Dónde y Cuándo?
+                    </h3>
+                    <p class="mb-2"><strong>Lugar:</strong> En la Facultad (Cafeterías, Áreas verdes, Laboratorios) o de forma virtual.</p>
+                    <p><strong>Formato:</strong> Reuniones semanales o quincenales breves y sesiones en línea para flexibilidad.</p>
+                </div>
+                <!-- Contacto -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-bold mb-4 text-rose-800 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square mr-2 text-pink-500"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        Forma de Contacto
+                    </h3>
+                    <p>El contacto se facilita por medio de correos electrónicos y grupos de WhatsApp para agendar una cita personal o sesión en línea.</p>
+                    <p class="mt-2 text-sm text-gray-500">Fomentamos la comunicación directa y adaptable.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impacto y Medición -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center text-rose-800 border-b-4 border-pink-400 pb-2 inline-block mx-auto">Incidencia en la Comunidad y Medición de Resultados</h2>
+
+            <!-- Impacto -->
+            <div class="grid md:grid-cols-3 gap-8 mt-8">
+                <div class="impact-card bg-white p-6 rounded-xl shadow-lg border border-pink-100 card-shadow">
+                    <h3 class="text-xl font-bold text-pink-600 mb-3">Asesorados (Individual)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Menor estrés y ansiedad por la integración.</li>
+                        <li>Desarrollo de un criterio ético sólido.</li>
+                        <li>Mejores hábitos de estudio y gestión del tiempo.</li>
+                    </ul>
+                </div>
+                <div class="impact-card bg-white p-6 rounded-xl shadow-lg border border-pink-100 card-shadow">
+                    <h3 class="text-xl font-bold text-pink-600 mb-3">Mentores (Liderazgo)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Fortalecimiento del liderazgo y la empatía.</li>
+                        <li>Refuerzan su propio compromiso ético.</li>
+                        <li>Reconocimiento y servicio a la comunidad.</li>
+                    </ul>
+                </div>
+                <div class="impact-card bg-white p-6 rounded-xl shadow-lg border border-pink-100 card-shadow">
+                    <h3 class="text-xl font-bold text-pink-600 mb-3">Comunitario (Facultad)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Reducción de casos de fraude académico.</li>
+                        <li>Mejora del ambiente escolar y cultura de confianza.</li>
+                        <li>Posible mejora en tasas de retención.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Medición -->
+            <div class="mt-12 p-8 bg-rose-50 rounded-xl shadow-inner border border-rose-200">
+                <h3 class="text-2xl font-bold mb-4 text-rose-800">Desarrollo, Seguimiento y Medición</h3>
+
+                <h4 class="text-xl font-semibold mt-4 mb-2 text-pink-600">Proceso de Ejecución:</h4>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Grupos se reúnen semanal o quincenalmente.</li>
+                    <li>Mentores reportan temas recurrentes anónimamente (formulario en línea).</li>
+                    <li>Coordinadores se reúnen mensualmente con mentores para apoyo.</li>
+                </ul>
+
+                <h4 class="text-xl font-semibold mt-6 mb-2 text-pink-600">Evaluación de Impacto:</h4>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="p-3 bg-white rounded-lg shadow-sm">
+                        <p class="font-bold">1. Encuesta Pre-Post</p>
+                        <p class="text-sm text-gray-600">Mide cambio en estrés, conocimiento de reglamento y percepción ética.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-lg shadow-sm">
+                        <p class="font-bold">2. Métricas Cualitativas</p>
+                        <p class="text-sm text-gray-600">Testimonios anónimos de asesorados y mentores.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-lg shadow-sm">
+                        <p class="font-bold">3. Métricas Cuantitativas</p>
+                        <p class="text-sm text-gray-600">Registro de participación, número de reuniones, y a largo plazo, índice de deserción.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONCLUSIÓN FINAL -->
+        <section class="mb-16">
+            <div class="conclusion p-10 md:p-12 rounded-xl bg-rose-600 text-white shadow-2xl text-center">
+                <h2 class="text-3xl font-bold mb-4 border-b border-pink-300 pb-2 inline-block">Reflexión Final</h2>
+                <p class="text-lg italic font-light leading-relaxed">El "Programa Mentor Ético" es una intervención práctica y ética que utiliza recursos mínimos (la experiencia de los alumnos avanzados) para generar un cambio máximo. Al crear una cadena de apoyo ético entre pares, se siembra la semilla para una comunidad de la Facultad de Ingeniería más unida, íntegra y resiliente, formando no solo mejores ingenieros, sino mejores humanos.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-rose-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p class="mb-1">Programa Mentor Ético - Facultad de Ingeniería</p>
+            <p class="text-rose-200">Diseñado para fomentar una cultura de colaboración y confianza académica.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
